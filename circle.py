@@ -10,23 +10,21 @@ class Circle:
     # - Add an attribute called "perimeter" that defaults to 0.0
 
     def __init__(self, radius):
-        self.radius = radius
-        self.area = 0.0
-        self.perimeter = 0.0
+        pass  # replace this with your code
 
     # Add a method called "calculate_area" that calculates the area of the circle
     # - The area should be stored in the class's "area" attribute
     # - The area of a circle is calculated using the formula (area = pi * radius^2)
 
     def calculate_area(self):
-        self.area = math.pi * self.radius ** 2
+        pass  # replace this with your code
 
     # Add a method called "calculate_perimeter" that calculates the perimeter of the circle
     # - The perimeter should be stored in the class's "perimeter" attribute
     # - The perimeter of a circle is calculated using the formula (perimeter = 2 * pi * radius)
 
     def calculate_perimeter(self):
-        self.perimeter = 2 * math.pi * self.radius
+        pass
 
 
 def main():
