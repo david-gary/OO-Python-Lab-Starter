@@ -1,8 +1,10 @@
 TC_CORRECT=0 # Test Case Correct Count
 TC_INCORRECT=0 # Test Case Incorrect Count
 
+bash person_test.sh
+
 # compare the output file with the expected output file
-diff tests/outputs/person_test_out.txt tests/person_test_out_expected.txt
+diff outputs/person_test_output.txt outputs/person_test_output_expected.txt
 if [ $? -eq 0 ]; then
     #echo "Test Case 1: Correct"
     TC_CORRECT=$((TC_CORRECT+1))

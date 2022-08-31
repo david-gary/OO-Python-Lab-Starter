@@ -5,8 +5,7 @@ class Person:
     # - The name argument should be stored in an attribute called "name"
     # - The default value "John" should be assigned to the name if no argument is passed
 
-    def __init__(self, name="John"):
-        pass  # replace this with your code
+    pass  # replace this with your code
 
 
 def main():
