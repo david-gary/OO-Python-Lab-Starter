@@ -1,3 +1,1 @@
-#./local_tests/*.sh
-# ignore all filetypes that are not .py
-#!*.py
+/local_tests
