@@ -15,5 +15,5 @@ fi
 if [ $TC_INCORRECT -eq 0 ]; then
     echo "All Test Cases Correct"
 else
-    echo "Simple Calculator did not pass all test cases"
+    echo "Circle class did not pass all test cases"
 fi
