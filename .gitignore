@@ -1,0 +1,8 @@
+#local_tests/**
+*.pyc
+*.pyo
+*.egg-info
+*.swp
+
+# ignore all filetypes that are not .py
+#!*.py
